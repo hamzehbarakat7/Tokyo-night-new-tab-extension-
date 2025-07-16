@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #1a1d2b, #0d0e13);
+  color: #cdd6f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+h1 {
+  font-size: 3.0rem;
+  font-weight: 800;
+}
+h2 {
+   font-size: 35px;	
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+.weather {
+  margin: 10px;
+  font-size: 2.4rem;
+  color: #8aadf4;
+}
+.grid {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color: #1e1e2e;
+  padding: 20px 30px;
+  border-radius: 12px;
+  height: 320px;
+  min-width: 300px;
+  box-shadow: 0 0 20px #1113;
+}
+.card h3 {
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+}
+.card a {
+  display: block;
+  color: #a6accd;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+.card a:hover {
+  color: #f5c2e7;
+}
